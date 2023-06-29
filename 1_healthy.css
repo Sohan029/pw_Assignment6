@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    padding-top: 0px;
+    column-gap: 50px;
+}
+
+.content1{
+    text-align: start;
+    justify-self: center;
+    align-self: center;
+}
+.content1 button{
+    color: aliceblue;
+    background-color: black;
+    border: 0px;
+    padding: 5px 15px;
+    margin-top: 50px;
+}
+.content1 h2{
+    margin-bottom: 50px;
+}
+.image{
+    background-color: yellow;
+    height: 600px;
+}
+.image img{
+    height:600px;
+    width: 450px;
+}
+

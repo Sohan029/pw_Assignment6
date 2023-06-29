@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    position: static;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px;
+    padding: 30px;
+    padding-top: 0px;
+    column-gap: 50px;
+    row-gap: 20px;
+}
+.navbar{
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 50px 300px auto;
+    justify-content: space-between;
+    background-color: #68e7f5;
+}
+.navbar img{
+    height: 50px;
+    margin: auto 10px;
+}
+.navbar button{
+   margin: auto 10px;
+   padding: 10px 35px;
+   border-radius: 5px;
+   border: 0px;
+   background-color: #07c110;
+}
+.one{
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: repeat(3,90px);
+    justify-content: space-around;
+    width: 300px;
+}
+.one a{
+    text-decoration-line: none;
+    color: rgb(116, 113, 113);
+}
+.content1{
+    text-align: start;
+    justify-self: center;
+    align-self: center;
+    /* position: absolute; */
+}
+.content1 button{
+    color: aliceblue;
+    background-color: black;
+    border: 0px;
+    padding: 5px 15px;
+    margin-top: 50px;
+}
+.content1 h2{
+    margin-bottom: 50px;
+}
+.image{
+    background-color: yellow;
+    height: 600px;
+}
+.image img{
+    height:600px;
+    width: 450px;
+}
+.swiggy{
+    grid-column: 1/3;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto auto;
+    column-gap: 200px;
+    justify-items: center;
+    padding: 20px 100px;
+    background-color:#2b1e16;
+    border: 1px solid black;
+}
+.swiggy img{
+    height: 250px;
+}
+.swiggy h2{
+    color: antiquewhite;
+}
+.swiggy p{
+    color: #8f5430;
+    text-align: center;
+}
+.Feature{
+    display: grid;
+    grid-column: 1/3;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    column-gap: 8%;
+}
+.Feature img{
+    border-radius: 15px;
+}
+
+.Feature .text{
+    border: 1px solid black;
+    padding: 0px 5rem;
+    position: relative;
+    top: -50px;
+    background-color: #fff;
+    border-radius: 0px 0px 25px 25px;
+}

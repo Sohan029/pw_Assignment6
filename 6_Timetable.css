@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contain1{
+    display: grid;
+    border: 3px solid;
+    background-color: #05b8d7;
+}
+.contain2{
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: auto repeat(6,1fr);
+}
+.chemlab{
+    grid-column: 7/9;
+    background-color: #c8ebee;
+}
+.biolab{
+    grid-column: 2/4 ;
+    background-color: #c8ebee;
+}
+.alter{
+    background-color: #31c109;
+    font-weight: 600;
+}
+.lun{
+    background-color: #dfea0d;
+    border: 0px;
+    font-weight: 600;
+}
+div{
+    border: 2px dotted black;
+    /* text-align: center; */
+    background-color: #05b8d7;
+    padding: 20px 10px;
+}
+
+.main{
+    background-color: #f37878;
+    padding: 40px 15px;
+    font-weight: 600;
+}
+.day{
+    background-color: #d450eb;
+    font-weight: 600;
+}
